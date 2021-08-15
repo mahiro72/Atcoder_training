@@ -1,7 +1,13 @@
 A,B = map(int,input().split())
 
-ans = A
-for i in range(A+1,B+1):
-    ans ^=i
+def f(x):
+    if x%2==1:
+        if (x+1)%4==0:
+            return 0
+        else:
+            return 1
+    else:
+        return f(x+1)^(x+1)
 
-print(ans)
+print(f(A-1)^f(B))
+
