@@ -1,2 +1,2 @@
-s = "time_id"
-print('_'.join(s))
+s = "abc"
+print(s[:2])
