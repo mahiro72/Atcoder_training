@@ -4,7 +4,7 @@ ___
 virtual contest でといた問題を記録していきます
 
 
-training1 ~  
+training1 ~  training3
 
 time : 1hours  
 difficulty  
@@ -49,3 +49,26 @@ ___
   4. bit全探索
   5. 
 
+___
+
+
+training4 ~  
+
+time : 1hours  
+difficulty  
+1. 100~400
+2. 400~800
+3. 800~1000
+4. 1000~1200
+
+Exclude experimental difficulty  
+
+___
+
+- training4
+  1. sortするだけ、余った分は一人の子に集めればよい
+  2. 二つ目のボール以降はK-1通り
+  **3.** 制約から全探索を推測する、問題文の理解ができていなかった。  
+  また、文字列区間を考えるときはランレングス圧縮も頭の隅に置いておくべき  
+  もちろん、探索範囲が狭いのでランレングスなしでも十分間に合う
+  **4.** Bを固定して全探索
