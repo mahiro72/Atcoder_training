@@ -83,3 +83,13 @@ ___
   4. bit全探索、考察も完璧だった。  
   ただしょうもないミスして時間切れ...すごく悔しい
   
+- training6
+  1. [C - Neq Min](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_c)  
+  解法はあっていたがsetやpopを使ったことに予知おそらくどこかで  
+  ずれた可能性あり　シンプルにlistなどで実装したほうがよかった
+  2. [C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)  
+  中央値を二つあらかじめ求めておく
+  3. [D - 2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d)  
+  解法ではすべての素数をさきにlistで作っていた。  
+  return をうまくつかっても高速でできた
+  4. [D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)  
