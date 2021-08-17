@@ -112,3 +112,19 @@ ___
   4. [D - Coloring Dominoes](https://atcoder.jp/contests/arc081/tasks/arc081_b)  
   考察は悪くなかった。縦と横の通り数を同じと仮定したのがミス
   縦横、縦縦、横縦（横の時点で色が決まるので何もしないが）、横横の四つに場合分けして考える
+
+
+- training8
+  1. [B - 美しい文字列](https://atcoder.jp/contests/abc044/tasks/abc044_b)  
+  Counter使って要素の個数を見る
+  2. [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)  
+  bfsで実装しようとしたけどうまくいかなかった。  
+  aとbの総和に着目するらしい 、この仮定があると誤差を順番に直すうちに全体がそろう  
+  **また、連結成分の判定なのでUnionFindをつかう**
+  まとめると、連結部分を判定してその総和がa==bとなるか確認する  
+  3. [A - 01 Matrix ](https://atcoder.jp/contests/agc038/tasks/agc038_a)  
+  左上と右下に0を固定して線を引くだけ。複雑な行列は想定しなくてよい
+  4. [D - Card Eater](https://atcoder.jp/contests/arc068/tasks/arc068_b)  
+  数日前にやった  
+  種類が奇数個か偶数個かで場合分け、偶数の場合は一枚余分に減る
+
