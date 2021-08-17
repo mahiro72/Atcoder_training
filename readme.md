@@ -83,6 +83,10 @@ ___
   4. bit全探索、考察も完璧だった。  
   ただしょうもないミスして時間切れ...すごく悔しい
   
+
+___
+### 2021/08/17
+
 - training6
   1. [C - Neq Min](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_c)  
   解法はあっていたがsetやpopを使ったことに予知おそらくどこかで  
@@ -93,3 +97,18 @@ ___
   解法ではすべての素数をさきにlistで作っていた。  
   return をうまくつかっても高速でできた
   4. [D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)  
+  時間なかった。制約が小さいことから再帰でやるらしい
+
+
+- training7
+  1. [B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)  
+  実装に13分とられた、もう少し早くミスのないコードを書くべき
+  2. [D - Gathering Children](https://atcoder.jp/contests/abc136/tasks/abc136_d)  
+  RLの部分を探してLとRが偶数回目で何個集まるか計算  
+  ランレングス使ってS[i]=="L"でもっと簡単にできてた  
+  DPでもいけるみたい
+  3. [C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)  
+  約数を√nのループで高速列挙するだけ
+  4. [D - Coloring Dominoes](https://atcoder.jp/contests/arc081/tasks/arc081_b)  
+  考察は悪くなかった。縦と横の通り数を同じと仮定したのがミス
+  縦横、縦縦、横縦（横の時点で色が決まるので何もしないが）、横横の四つに場合分けして考える
