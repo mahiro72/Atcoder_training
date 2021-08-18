@@ -128,3 +128,16 @@ ___
   数日前にやった  
   種類が奇数個か偶数個かで場合分け、偶数の場合は一枚余分に減る
 
+
+
+- training9
+  1. [C - Divide the Problems](https://atcoder.jp/contests/abc132/tasks/abc132_c)  
+  sortして二つの中央値の差
+  2. [D - Water Bottle](https://atcoder.jp/contests/abc144/tasks/abc144_d)  
+  三分探索しようとしたが二部探索でいいみたい
+  数学的な解き方は傾けた時に底が見えるか見えないかで場合分け
+  3. [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e)  
+  自分は10の数に着目したが、2と5に着目するのが正解  
+  min(2,5)で0の数がわかる、また5のほうが小さいことは直感でわかるので5^xで割っていけばよい
+  4. [C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)  
+  貪欲
