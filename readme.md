@@ -141,3 +141,23 @@ ___
   min(2,5)で0の数がわかる、また5のほうが小さいことは直感でわかるので5^xで割っていけばよい
   4. [C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)  
   貪欲
+
+
+
+
+
+___
+### 2021/08/18
+
+- training10
+  1. [A - Fairness](https://atcoder.jp/contests/agc024/tasks/agc024_a)  
+  前にやった、ループ処理に注意
+  2. [C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)  
+  Counterつかって終わり
+  3. [D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d)  
+  自分は二つの公約数を求めてその中に素数がいくつあるか判定した  
+  解法では最大公約数を先に求めてそれを素因数分解してた  
+  **公約数は最大公約数の約数**
+  4. [D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)  
+  重複組み合わせ、仕切りのイメージ  
+  pythonだとfactoricalが大きくなりすぎるので自分で配列を用意して計算する必要あり
