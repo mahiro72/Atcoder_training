@@ -161,3 +161,17 @@ ___
   4. [D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)  
   重複組み合わせ、仕切りのイメージ  
   pythonだとfactoricalが大きくなりすぎるので自分で配列を用意して計算する必要あり
+
+
+
+- training11
+  1. [A - Arithmetic Sequence](https://atcoder.jp/contests/arc123/tasks/arc123_a)  
+  第一項と第三項の和が奇数かみる  
+  あとはA2が(A1+A3)//2より大きいか小さいか
+  2. [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)  
+  まえやった、unionfind
+  3. [C - String Invasion](https://atcoder.jp/contests/arc113/tasks/arc113_c)  
+  後ろから確認してランレングス  
+  dictでどの単語が何個あるのか記録するのがポイント
+  4. [D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)  
+  ビット全探索
