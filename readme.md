@@ -175,3 +175,17 @@ ___
   dictでどの単語が何個あるのか記録するのがポイント
   4. [D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)  
   ビット全探索
+
+
+- training12
+  1. [B - Collatz Problem](https://atcoder.jp/contests/abc116/tasks/abc116_b)  
+  よくわからないWAがでた、コーナーケース？  
+  とにかく提出前に10秒でもいいから落ち着くようにする。
+  2. [A - Two Choices ](https://atcoder.jp/contests/arc115/tasks/arc115_a)  
+  思いつかなかったの超悔しい  
+  奇数と偶数は必ず答えが異なるから掛け算で何通りかでる
+  3. [D - Sum of Large Numbers ](https://atcoder.jp/contests/abc163/tasks/abc163_d)  
+  大きい数字がくっつく場合、  
+  **選んだ個数が異なるとき、和が等しくなることはない**  
+  あとはk個選んだ時の最小値と最大値を記録しながら足していく
+  4. よくわからんコンテストのやつだったのでパス
