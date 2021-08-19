@@ -211,3 +211,30 @@ ___
   C D  
   のとき高橋君から先に選ぶと A-D>C-Bとなる  
   変形するとA+B>C+Dとなるので直感的に和をsortしたらよいと気づく
+
+
+
+- training14
+  1. [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c)  
+  場合分け
+  2. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  #マスがH+W−1個か調べるだけ  
+  通った道を記録する一筆書きのようなdfsを実装した、これはオーバーキル
+  3. [D - aab aba baa](https://atcoder.jp/contests/abc202/tasks/abc202_d)  
+  考察は悪くなかった。イメージは何回も半分に分けながら先頭がaかbか見る  
+  この問題ではaが最初に来ると仮定したうえで組み合わせが何通りか計算する。
+  3. [E - Akari](https://atcoder.jp/contests/abc182/tasks/abc182_e)  
+  愚直に光が届いてるか調べたらO(HW)  
+  ただうまく実装できていない.......
+
+
+- training15
+  1. [A - Remove Substrings](https://atcoder.jp/contests/agc054/tasks/agc054_a)  
+  場合分け、
+  2. [C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)  
+  N-1の幅で考えた。その中で4で割り切れるものと2が2つで4の倍数になる可能性があるものの2パターン考えた
+  3. [C - String Invasion](https://atcoder.jp/contests/arc113/tasks/arc113_c)  
+  まえやった
+  3. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  ダイクストラはO(NlogN)でできるらしい  
+  ポイントは最短距離を時間にするのだが、与えられたT,Kを使って1つの式を作れるか

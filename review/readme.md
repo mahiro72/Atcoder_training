@@ -13,3 +13,7 @@ ___
 
 -  [C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)  
   貪欲
+
+- [E - Akari](https://atcoder.jp/contests/abc182/tasks/abc182_e)  
+解法はわかったが実装できてない  
+眠いから後回し
