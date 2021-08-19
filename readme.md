@@ -189,3 +189,25 @@ ___
   **選んだ個数が異なるとき、和が等しくなることはない**  
   あとはk個選んだ時の最小値と最大値を記録しながら足していく
   4. よくわからんコンテストのやつだったのでパス
+
+
+
+___
+### 2021/08/19
+
+
+- training13
+  1. [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c)  
+  場合分け
+  2. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  #マスがH+W−1個か調べるだけ  
+  通った道を記録する一筆書きのようなdfsを実装した、これはオーバーキル
+  3. [D - aab aba baa](https://atcoder.jp/contests/abc202/tasks/abc202_d)  
+  考察は悪くなかった。イメージは何回も半分に分けながら先頭がaかbか見る  
+  この問題ではaが最初に来ると仮定したうえで組み合わせが何通りか計算する。
+  3. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  簡単なテストケースで考える  
+  A B  
+  C D  
+  のとき高橋君から先に選ぶと A-D>C-Bとなる  
+  変形するとA+B>C+Dとなるので直感的に和をsortしたらよいと気づく
