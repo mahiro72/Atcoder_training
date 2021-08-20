@@ -205,7 +205,7 @@ ___
   3. [D - aab aba baa](https://atcoder.jp/contests/abc202/tasks/abc202_d)  
   考察は悪くなかった。イメージは何回も半分に分けながら先頭がaかbか見る  
   この問題ではaが最初に来ると仮定したうえで組み合わせが何通りか計算する。
-  3. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  4. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
   簡単なテストケースで考える  
   A B  
   C D  
@@ -223,7 +223,7 @@ ___
   3. [D - aab aba baa](https://atcoder.jp/contests/abc202/tasks/abc202_d)  
   考察は悪くなかった。イメージは何回も半分に分けながら先頭がaかbか見る  
   この問題ではaが最初に来ると仮定したうえで組み合わせが何通りか計算する。
-  3. [E - Akari](https://atcoder.jp/contests/abc182/tasks/abc182_e)  
+  4. [E - Akari](https://atcoder.jp/contests/abc182/tasks/abc182_e)  
   愚直に光が届いてるか調べたらO(HW)  
   ただうまく実装できていない.......
 
@@ -235,6 +235,28 @@ ___
   N-1の幅で考えた。その中で4で割り切れるものと2が2つで4の倍数になる可能性があるものの2パターン考えた
   3. [C - String Invasion](https://atcoder.jp/contests/arc113/tasks/arc113_c)  
   まえやった
-  3. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
+  4. [A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)  
   ダイクストラはO(NlogN)でできるらしい  
   ポイントは最短距離を時間にするのだが、与えられたT,Kを使って1つの式を作れるか
+
+
+
+___
+### 2021/08/20
+
+
+- training16
+  1. [B - Making Triangle](https://atcoder.jp/contests/abc175/tasks/abc175_b)  
+  combinations
+  2. [A - Shik and Stone](https://atcoder.jp/contests/agc008/tasks/agc008_a)  
+  ややこしい場合分け、だが実際は４パターン  
+  3. [B - Special Subsets](https://atcoder.jp/contests/arc114/tasks/arc114_b)  
+  fanctional graph  
+  すごく面白い問題だった  
+  関数をグラフとしてみるらしい、へー
+  4. [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)  
+  ~~高さを一つ目のデータから決め打ちするのはダメだった~~  
+  ~~おそらくmaxがほかのデータで決め打ちすると変わるため~~  
+  そんなことなかった、max(h,0)のように書き換えるべきだった
+  for文でhを探索しても範囲が狭いので十分間に合う  
+
