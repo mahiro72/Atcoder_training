@@ -257,6 +257,27 @@ ___
   4. [C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)  
   ~~高さを一つ目のデータから決め打ちするのはダメだった~~  
   ~~おそらくmaxがほかのデータで決め打ちすると変わるため~~  
-  そんなことなかった、max(h,0)のように書き換えるべきだった
+  そんなことなかった、max(h,0)のように書き換えるべきだった  
   for文でhを探索しても範囲が狭いので十分間に合う  
 
+
+
+
+___
+### 2021/08/21
+
+
+- training17
+  1. [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)  
+  1つずらすのがあまりの最大化
+  2. [C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a)  
+  素因数分解してその要素がN個以上あるか(cnt//N)
+  3. [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c)  
+  いろんな解法がありそう...  
+  自分はN(Aの要素)をfor文で回し累積和のBについて残りの時間で  
+  二部探索したときに何冊の部分に入るか確かめた
+  4. [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e)  
+  面白い....!!!  
+  スタートが特に決まってないので安く買える町をスタートとして  
+  bfsを何度もする  
+  計算量を減らすため訪れたことのある町はスキップ
