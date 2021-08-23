@@ -52,7 +52,7 @@ ___
 ___
 
 
-training4 ~  
+training4 ~  training18
 
 time : 1hours  
 difficulty  
@@ -89,7 +89,7 @@ ___
 
 - training6
   1. [C - Neq Min](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_c)  
-  解法はあっていたがsetやpopを使ったことに予知おそらくどこかで  
+  解法はあっていたがsetやpopを使ったことによりおそらくどこかで  
   ずれた可能性あり　シンプルにlistなどで実装したほうがよかった
   2. [C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)  
   中央値を二つあらかじめ求めておく
@@ -120,7 +120,7 @@ ___
   2. [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b)  
   bfsで実装しようとしたけどうまくいかなかった。  
   aとbの総和に着目するらしい 、この仮定があると誤差を順番に直すうちに全体がそろう  
-  **また、連結成分の判定なのでUnionFindをつかう**
+  **また、連結成分の判定なのでUnionFindをつかう**  
   まとめると、連結部分を判定してその総和がa==bとなるか確認する  
   3. [A - 01 Matrix ](https://atcoder.jp/contests/agc038/tasks/agc038_a)  
   左上と右下に0を固定して線を引くだけ。複雑な行列は想定しなくてよい
@@ -281,3 +281,46 @@ ___
   スタートが特に決まってないので安く買える町をスタートとして  
   bfsを何度もする  
   計算量を減らすため訪れたことのある町はスキップ
+
+
+
+___
+
+
+training18 ~  
+
+time : 1hours  
+difficulty  
+1. 100~400
+2. 100~400
+3. 400~800
+4. 400~800
+5. 800~1200
+6. 800~1200
+
+
+Exclude experimental difficulty  
+
+___
+
+
+___
+### 2021/08/23
+
+
+- training18
+  1. [B - Tax Rate](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_b)  
+  全探索でXを探す
+  2. [B - Guidebook](https://atcoder.jp/contests/abc128/tasks/abc128_b) 
+  自分は辞書型に入れてそれぞれsortした  
+  二次元配列でsortしたらまとめてsortできるので二つ目の要素を-かけることで  
+  昇順に並べられた 
+  3. [B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)  
+  最初と最後を全探索して調べる  
+  4. [B - Many Oranges ](https://atcoder.jp/contests/abc195/tasks/abc195_b)    
+  AN<=W*1000<=BNをつかってNを全探索  
+  5. [B - Two Arrays ](https://atcoder.jp/contests/apc001/tasks/apc001_b)  
+  二つの数列を一致させるときは和に着目  
+  すべての index について a[i]<=b[i] という状態になれば "Yes"  
+  4. [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)  
+  累積 GCD
