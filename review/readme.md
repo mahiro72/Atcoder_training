@@ -17,3 +17,6 @@ ___
 - [E - Akari](https://atcoder.jp/contests/abc182/tasks/abc182_e)  
 解法はわかったが実装できてない  
 眠いから後回し
+
+- 3. [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)  
+半分全列挙、というらしい。 

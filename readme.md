@@ -343,6 +343,22 @@ ___
   1回の施行にかかるms * 1/pで終わり  
   5. [D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d)  
   -1をかけて優先度付きキュー
-  4. [C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)  
+  6. [C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)  
   実装ゲーだったみたい(自分はしてない)  
   貪欲にやるかんじ
+
+
+- training20
+  1. [A - Hands](https://atcoder.jp/contests/arc109/tasks/arc109_a)  
+  場合分けに時間とられすぎた...
+  2. [B - Contest with Drinks Easy](https://atcoder.jp/contests/abc050/tasks/abc050_b)  
+  最初に和を求めておく
+  3. [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)  
+  半分全列挙、というらしい。  
+  4. [C - Ubiquity](https://atcoder.jp/contests/abc178/tasks/abc178_c)      
+  集合論  
+  9が存在しない集合と0が存在しない集合の和集合を考え、その余事象を求める 
+  5. [D - Powerful Discount Tickets](https://atcoder.jp/contests/agc016/tasks/agc016_a)  
+  前にやった
+  6. [A - Simple Math 2](https://atcoder.jp/contests/arc111/tasks/arc111_a)  
+  10^NからM^2の倍数を引いても答えは変わらない
