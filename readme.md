@@ -324,3 +324,25 @@ ___
   すべての index について a[i]<=b[i] という状態になれば "Yes"  
   4. [C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)  
   累積 GCD
+
+
+
+
+### 2021/08/23
+
+
+- training19
+  1. [C - XYZ Triplets](https://atcoder.jp/contests/aising2020/tasks/aising2020_c)  
+  x,y,zを√nの範囲で全探索
+  2. [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b) 
+  範囲が狭いので1文字ずつ調べて数え上げる
+  3. [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)  
+  Bを基準にsortしてforで回す 
+  4. [C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)    
+  幾何分布　期待値は1/p  
+  1回の施行にかかるms * 1/pで終わり  
+  5. [D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d)  
+  -1をかけて優先度付きキュー
+  4. [C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)  
+  実装ゲーだったみたい(自分はしてない)  
+  貪欲にやるかんじ
