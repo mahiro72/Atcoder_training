@@ -328,7 +328,7 @@ ___
 
 
 
-### 2021/08/23
+### 2021/08/24
 
 
 - training19
@@ -362,3 +362,28 @@ ___
   前にやった
   6. [A - Simple Math 2](https://atcoder.jp/contests/arc111/tasks/arc111_a)  
   10^NからM^2の倍数を引いても答えは変わらない
+
+
+
+
+
+### 2021/08/25
+
+- training21
+  1. [B - Not Found ](https://atcoder.jp/contests/abc071/tasks/abc071_b)   
+  setで入ってるか確認
+  2. [B - Mex Boxes](https://atcoder.jp/contests/keyence2021/tasks/keyence2021_b)  
+  配列を用意してそれぞれの数字をカウントする  
+  Kよリ小さくなったときにKとansの更新をする
+  3. [B - RGB Boxes](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_b)  
+  r,gを決め打ちしてbが存在するときにans+=1する
+  4. [A - Divide a Cuboid](https://atcoder.jp/contests/agc004/tasks/agc004_a)    
+  A,B,Cそれぞれを基準にして計算し、それらの最小値を求める  
+  5. [B - fLIP](https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_b)  
+  黒く塗られるマスは左上と右下に集められるので  
+  x*y+(M-x)*(N-y)としxとyを全探索する O(NM)
+  6. [C - String Transformation ](https://atcoder.jp/contests/abc110/tasks/abc110_c)  
+  Counterで数えるだけ
+
+
+

@@ -1,0 +1,5 @@
+A,B,C = map(int,input().split())
+a = (A*B*C-(A//2)*B*C)-((A//2)*B*C)
+b = (A*B*C-A*(B//2)*C)-(A*(B//2)*C)
+c = (A*B*C-A*B*(C//2))-(A*B*(C//2))
+print(min(a,b,c))
