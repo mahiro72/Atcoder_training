@@ -287,7 +287,7 @@ ___
 ___
 
 
-training18 ~  
+training18 ~ 23
 
 time : 1hours  
 difficulty  
@@ -301,7 +301,7 @@ difficulty
 
 Exclude experimental difficulty  
 
-___
+
 
 
 ___
@@ -327,7 +327,7 @@ ___
 
 
 
-
+___
 ### 2021/08/24
 
 
@@ -366,7 +366,7 @@ ___
 
 
 
-
+___
 ### 2021/08/25
 
 - training21
@@ -385,5 +385,47 @@ ___
   6. [C - String Transformation ](https://atcoder.jp/contests/abc110/tasks/abc110_c)  
   Counterで数えるだけ
 
+
+___
+### 2021/08/25
+
+- training22
+  1. [B - Not Found ](https://atcoder.jp/contests/abc071/tasks/abc071_b)   
+  setで入ってるか確認
+  2. [B - Mex Boxes](https://atcoder.jp/contests/keyence2021/tasks/keyence2021_b)  
+  配列を用意してそれぞれの数字をカウントする  
+  Kよリ小さくなったときにKとansの更新をする
+  3. [B - RGB Boxes](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_b)  
+  r,gを決め打ちしてbが存在するときにans+=1する
+  4. [A - Divide a Cuboid](https://atcoder.jp/contests/agc004/tasks/agc004_a)    
+  A,B,Cそれぞれを基準にして計算し、それらの最小値を求める  
+  5. [B - fLIP](https://atcoder.jp/contests/code-festival-2017-quala/tasks/code_festival_2017_quala_b)  
+  黒く塗られるマスは左上と右下に集められるので  
+  x*y+(M-x)*(N-y)としxとyを全探索する O(NM)
+  6. [C - String Transformation ](https://atcoder.jp/contests/abc110/tasks/abc110_c)  
+  Counterで数えるだけ
+
+
+
+
+___
+### 2021/08/26
+
+- training23
+  1. [A - Number of Multiples](https://atcoder.jp/contests/aising2020/tasks/aising2020_a)  
+  LからRまで全探索
+  2. [A - Two Sequences 2](https://atcoder.jp/contests/keyence2021/tasks/keyence2021_a)  
+  aとcの最大値を記録しつつ全探索
+  3. [B - log](https://atcoder.jp/contests/arc109/tasks/arc109_b)  
+  これ二部探索なのか...すごい  
+  1+2+....+x<=N+1の範囲で最大となるxを二部探索で見つける  
+  その時答えはN-x+1となる
+  4. [C - Exam and Wizard ](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)  
+  b-aの配列を用意して計算
+  5. [D - Opposite](https://atcoder.jp/contests/abc197/tasks/abc197_d)  
+  atan2を使うらしい、苦手問題
+  6. [A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)  
+  DP...reviewに追加するのであとからやる...
+  
 
 
