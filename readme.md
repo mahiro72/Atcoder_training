@@ -449,7 +449,7 @@ Exclude experimental difficulty
 ___
 ### 2021/08/27
 
-- training23
+- training24
   1. [C - Many Medians ](https://atcoder.jp/contests/abc094/tasks/arc095_a)  
   中央値をあらかじめ2つ求めておく
   2. [C - Subarray Sum ](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)  
