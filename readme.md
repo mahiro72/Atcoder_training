@@ -461,3 +461,19 @@ ___
   4. [C - Exam and Wizard ](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)  
   二部最大マッチングというらしい(初めてみた)  
   直感的にa<c、b<dという条件のうち最も大きいものからマッチングさせていけば良い
+
+
+- training25
+  1. [B - ARC Wrecker](https://atcoder.jp/contests/arc117/editorial/1111)  
+
+  2. [A - Multiple Array ](https://atcoder.jp/contests/agc009/tasks/agc009_a)  
+  後ろから貪欲に計算していくという考察はあっていた  
+  おそらくceilあたりで最小化に失敗してたのかな  
+  とりあえず余りの時は何も考えずにa%bでいい  
+
+  貪欲法の考察として  
+  **今の自分にとっても後にとっても良くなる**ことがあげられる
+  3. [C - Boxes and Candies](https://atcoder.jp/contests/abc048/tasks/arc064_a)  
+  考察は完ぺきだった。x-a[i-1]が0を下回る場合を考えてなかった...
+  4. []()  
+  時間なかったのでとばす
