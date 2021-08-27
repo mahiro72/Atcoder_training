@@ -466,7 +466,7 @@ ___
 - training25
   1. [B - ARC Wrecker](https://atcoder.jp/contests/arc117/editorial/1111)  
   **数え上げ系の問題では、N が小さい場合を考えると考察が進むことがある**  
-  
+
   2. [A - Multiple Array ](https://atcoder.jp/contests/agc009/tasks/agc009_a)  
   後ろから貪欲に計算していくという考察はあっていた  
   おそらくceilあたりで最小化に失敗してたのかな  
@@ -478,3 +478,21 @@ ___
   考察は完ぺきだった。x-a[i-1]が0を下回る場合を考えてなかった...
   4. []()  
   時間なかったのでとばす
+
+
+
+
+
+- training26　(x : 3,4)
+  1. [C - Not so Diverse](https://atcoder.jp/contests/arc086/tasks/arc086_a)  
+  Counterで個数を数えてkを更新
+  2. [A - Two Choices](https://atcoder.jp/contests/arc115/tasks/arc115_a)  
+  前にやった、偶奇で分けて掛け算
+  3. [B - Products of Min-Max](https://atcoder.jp/contests/arc116/tasks/)  
+  愚直にやるとminとmaxを固定してforをまわO(N^2)  
+  そこでminを固定し、sumを更新することでO(N)でできた  
+  この手の問題を解けるようになりたい
+  4. [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)  
+  転倒数は Fenwick Treeやセグメントツリー を用いるらしい  
+  なんとなくわかったがいまいちわかってない部分もある...  
+  難しい問題にも慣れていきたい。
