@@ -429,3 +429,35 @@ ___
   
 
 
+
+
+___
+
+
+training24 ~ 
+
+time : 1hours  
+difficulty  
+1. 400~800
+2. 400~800
+3. 800~1200
+4. 1200~1600
+
+Exclude experimental difficulty  
+
+
+___
+### 2021/08/27
+
+- training23
+  1. [C - Many Medians ](https://atcoder.jp/contests/abc094/tasks/arc095_a)  
+  中央値をあらかじめ2つ求めておく
+  2. [C - Subarray Sum ](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)  
+  しょうもない問題...
+  3. [C - Large RPS Tournament](https://atcoder.jp/contests/arc109/tasks/arc109_c)  
+  文字列の長さの二倍程度調べるだけで全体の結果がわかる  
+  連結した文字列をSとして2つ区切りで調べ、勝者の文字列Tを作る  
+  それをSとして更新し、繰り返す。答えはS[0]
+  4. [C - Exam and Wizard ](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)  
+  二部最大マッチングというらしい(初めてみた)  
+  直感的にa<c、b<dという条件のうち最も大きいものからマッチングさせていけば良い
