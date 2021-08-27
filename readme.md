@@ -465,7 +465,8 @@ ___
 
 - training25
   1. [B - ARC Wrecker](https://atcoder.jp/contests/arc117/editorial/1111)  
-
+  **数え上げ系の問題では、N が小さい場合を考えると考察が進むことがある**  
+  
   2. [A - Multiple Array ](https://atcoder.jp/contests/agc009/tasks/agc009_a)  
   後ろから貪欲に計算していくという考察はあっていた  
   おそらくceilあたりで最小化に失敗してたのかな  
