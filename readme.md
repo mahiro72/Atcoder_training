@@ -529,3 +529,18 @@ difficulty
 
 Exclude experimental difficulty  
 
+
+
+___
+
+- training28(x : 3)
+  1. [B - Trained?](https://atcoder.jp/contests/abc065/tasks/abc065_b)  
+  実装のみ
+  2. [C - Subarray Sum](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)  
+  Sの配列をk個用意して場合分け
+  3. [C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)  
+  距離に時間の経過分追加していきXを超えたらループ終わり
+  4. [E - Red and Green Apples ](https://atcoder.jp/contests/abc160/tasks/abc160_e)  
+  貪欲法
+
+  
