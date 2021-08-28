@@ -544,7 +544,7 @@ ___
 
 
 
-- training29(x : 4)
+- training29(x : 3,4)
   1. [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  
   a[i]の値が何個あるのかを配列cntに記録し  
   cnt[i-1]+cnt[i]+cnt[i+1]の最大値を求める。  
