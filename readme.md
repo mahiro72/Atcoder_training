@@ -434,7 +434,7 @@ ___
 ___
 
 
-training24 ~ 
+training24 ~ 27
 
 time : 1hours  
 difficulty  
@@ -496,3 +496,36 @@ ___
   転倒数は Fenwick Treeやセグメントツリー を用いるらしい  
   なんとなくわかったがいまいちわかってない部分もある...  
   難しい問題にも慣れていきたい。
+
+
+
+
+
+___
+### 2021/08/28
+
+- training27(x : 3,4)
+  1. [C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)  
+  全探索
+  2. [D - Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d)  
+  Unionfindで最大のグループの大きさを調べる
+  3. [D - Remainder Reminder](https://atcoder.jp/contests/arc091/tasks/arc091_b)  
+  **片方を固定してもう片方については同じ要素/性質をまとめて数え上げる**
+  4. []()  
+  時間なかった
+
+
+___
+
+
+training28 ~ 
+
+time : 1hours  
+difficulty  
+1. 400~800
+2. 400~800
+3. 400~800
+4. 800~1200
+
+Exclude experimental difficulty  
+
