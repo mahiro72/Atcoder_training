@@ -481,8 +481,6 @@ ___
 
 
 
-
-
 - training26　(x : 3,4)
   1. [C - Not so Diverse](https://atcoder.jp/contests/arc086/tasks/arc086_a)  
   Counterで個数を数えてkを更新
@@ -543,4 +541,18 @@ ___
   4. [E - Red and Green Apples ](https://atcoder.jp/contests/abc160/tasks/abc160_e)  
   貪欲法
 
-  
+
+
+
+- training28(x : 3)
+  1. [C - Connect Cities ](https://atcoder.jp/contests/abl/tasks/abl_c)  
+  Unionfindの基本
+  2. [C - Grand Garden ](https://atcoder.jp/contests/abc116/tasks/abc116_c)  
+  for で上がったか下がったか見た  
+  初期値に注意
+  3. [C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)  
+  Bit全探索の基本
+  4. [D - Lamp ](https://atcoder.jp/contests/abc129/tasks/abc129_d)  
+  自分は一つの配列に数字を記録していく解法を思いついたが実装できなかった  
+  答えではup,down,left,rightの4つの配列を用意し重複分最後に-3していた
+
