@@ -545,14 +545,15 @@ ___
 
 
 - training29(x : 4)
-  1. [C - Connect Cities ](https://atcoder.jp/contests/abl/tasks/abl_c)  
-  Unionfindの基本
-  2. [C - Grand Garden ](https://atcoder.jp/contests/abc116/tasks/abc116_c)  
-  for で上がったか下がったか見た  
-  初期値に注意
-  3. [C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)  
-  Bit全探索の基本
-  4. [D - Lamp ](https://atcoder.jp/contests/abc129/tasks/abc129_d)  
-  自分は一つの配列に数字を記録していく解法を思いついたが実装できなかった  
-  答えではup,down,left,rightの4つの配列を用意し重複分最後に-3していた
-
+  1. [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  
+  a[i]の値が何個あるのかを配列cntに記録し  
+  cnt[i-1]+cnt[i]+cnt[i+1]の最大値を求める。  
+  最初と最後だけindexのエラ＝が出るので注意
+  2. [D - Derangement](https://atcoder.jp/contests/abc072/tasks/arc082_b)  
+  貪欲に前からswapした  
+  ひとつ前でswapした場合現在はswapする必要がないのでその処理に注意する
+  3. [A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)  
+  まずA<Bと言われていないのでそこに注意する   
+  **とりうる値は x 以上 y 以下の整数という具合に、区間になっていることがあげられるとき6  が作れて 8 も作れるなら 7 も作れる**
+  4. [B - Exactly N points](https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_b)  
+  Nを超えるまで和を計算する、超えた時点で和とNの差をとりその差を表示しないようにする
