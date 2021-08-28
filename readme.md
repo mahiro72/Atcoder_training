@@ -544,7 +544,7 @@ ___
 
 
 
-- training28(x : 3)
+- training29(x : 4)
   1. [C - Connect Cities ](https://atcoder.jp/contests/abl/tasks/abl_c)  
   Unionfindの基本
   2. [C - Grand Garden ](https://atcoder.jp/contests/abc116/tasks/abc116_c)  
