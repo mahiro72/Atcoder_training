@@ -578,7 +578,7 @@ ___
 ___
 ### 2021/08/29
 
-- training31(x : 1,2,3,4)
+- training32(x : 3,4)
   1. [C - Write and Erase ](https://atcoder.jp/contests/abc073/tasks/abc073_c)  
   dictにメモしてその数字の個数が奇数か偶数か
   2. [B - Choose Integers ](https://atcoder.jp/contests/abc060/tasks/abc060_b)  
