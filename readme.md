@@ -579,18 +579,25 @@ ___
 ### 2021/08/29
 
 - training31(x : 1,2,3,4)
-  1. [A - Dial Up](https://atcoder.jp/contests/arc125/tasks/arc125_a)  
-  N//2の範囲で値があるか貪欲に探索する  
-  なければ-1、あったらansにたしていく
-  2. [D - Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)  
-  解法はあってたが実装できなかった  
-  C = list(A[i]-(i+1)for i in range(N))などとすることで  
-  現在のAと本来の数字との差が何個かという配列を作る  
-  そして二部探索でどこに入るか求める
-
-  bisect.bisect_right = bisect.bisect
+  1. [C - Write and Erase ](https://atcoder.jp/contests/abc073/tasks/abc073_c)  
+  dictにメモしてその数字の個数が奇数か偶数か
+  2. [B - Choose Integers ](https://atcoder.jp/contests/abc060/tasks/abc060_b)  
+  while文でA%B==0になるところからもう一度0になるところまでの間に  
+  A%B==Cになるものがあるか見る
   3. [C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)  
-  問題文読み間違えてた...  
-  ポイントはBBBWWWとBWが同じ答えになること、つまりlen(S)-1 (文字列を短くしてから)
-  4. []()  
-  時間なかった
+  まず、a^b = x の時 x^a = bも成り立つ  
+  自分はdictに要素をメモしながら  
+  aを決め打ちすることでxを求めtmp_a = x^bでtmp_aがあるかどうか調べた  
+  O(N*M)かな？
+  (うまくいかなかったが)  
+
+  解法ではc = a^xとして　配列に追加していきsortしてBと同じになるか比べていた  
+  これは O(N**2*logN)
+  
+  4. [F - Range Xor Query](https://atcoder.jp/contests/abc185/tasks/abc185_f)  
+  時間なかった  
+  フェンウィック木(binary index tree)を使う  
+  **-> 部分和の計算と要素の更新の両方を効率的に行える木構造**
+
+
+
