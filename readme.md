@@ -544,7 +544,21 @@ ___
 
 
 
-- training29(x : 3,4)
+- training29(x : 4)
+  1. [C - Connect Cities](https://atcoder.jp/contests/abl/tasks/abl_c)  
+  Unionfindの基本
+  2. [C - Grand Garden ](https://atcoder.jp/contests/abc116/tasks/abc116_c)  
+  h[i]<h[i+1]の時のみcountしていく
+  3. [C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)  
+  bit全探索の基本
+  4. [D - Lamp ](https://atcoder.jp/contests/abc129/tasks/abc129_d)  
+  left,right,up,downのその方向から光がとおれる道がいくつあるか数える  
+  そしてそれぞれの和を求め重なっている分-3し、最大値が答え
+
+
+
+
+- training30(x : 3,4)
   1. [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  
   a[i]の値が何個あるのかを配列cntに記録し  
   cnt[i-1]+cnt[i]+cnt[i+1]の最大値を求める。  
@@ -557,3 +571,26 @@ ___
   **とりうる値は x 以上 y 以下の整数という具合に、区間になっていることがあげられるとき6  が作れて 8 も作れるなら 7 も作れる**
   4. [B - Exactly N points](https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_b)  
   Nを超えるまで和を計算する、超えた時点で和とNの差をとりその差を表示しないようにする
+
+
+
+
+___
+### 2021/08/29
+
+- training31(x : 1,2,3,4)
+  1. [A - Dial Up](https://atcoder.jp/contests/arc125/tasks/arc125_a)  
+  N//2の範囲で値があるか貪欲に探索する  
+  なければ-1、あったらansにたしていく
+  2. [D - Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)  
+  解法はあってたが実装できなかった  
+  C = list(A[i]-(i+1)for i in range(N))などとすることで  
+  現在のAと本来の数字との差が何個かという配列を作る  
+  そして二部探索でどこに入るか求める
+
+  bisect.bisect_right = bisect.bisect
+  3. [C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)  
+  問題文読み間違えてた...  
+  ポイントはBBBWWWとBWが同じ答えになること、つまりlen(S)-1 (文字列を短くしてから)
+  4. []()  
+  時間なかった
