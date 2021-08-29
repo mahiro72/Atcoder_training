@@ -18,5 +18,9 @@ ___
 解法はわかったが実装できてない  
 眠いから後回し
 
-- 3. [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)  
+-  [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b)  
 半分全列挙、というらしい。 
+
+
+- [F - Range Xor Query](https://atcoder.jp/contests/abc185/tasks/abc185_f)  
+フェンウィック木(binary index tree)
