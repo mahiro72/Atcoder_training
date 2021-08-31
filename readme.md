@@ -669,4 +669,20 @@ ___
 
 
 
+
+- training35(x :1,3 )
+  1. [D - Wall ](https://atcoder.jp/contests/abc079/tasks/abc079_d)  
+  グラフの全ての頂点の間の最短路を見つける時は  
+  **ワーシャルフロイド法**  
+  cost[i][j]: 頂点v_iから頂点v_jへ到達するための辺コストとし  
+  cost[i][j] = min(cost[i][j],cost[i][k]+cost[k][j])で更新する
+  計算量はO(edge**3)
+  2. [B - Box and Ball ](https://atcoder.jp/contests/agc002/tasks/agc002_b/editorial)  
+  赤いボールが入っている可能性があるかを記録するboolの配列と  
+  ボールの個数をcountする配列の二つを用意することで  
+  O(M)で実装できた
+  3. [D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)  
+  全探索  
+  O(N**5)
+
   
