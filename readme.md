@@ -636,3 +636,37 @@ ___
   これは{A}に素因子に重複があるかを調べることでO(N)に落とし込める
   3. []()  
   時間なかった
+
+
+
+
+___
+### 2021/08/31
+
+- training34(x :1,2,3)
+  1. [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e)  
+  計算量を抑えて最小値の探索を行う問題  
+  尺取り法
+  2. [E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)  
+  r,g,bの値を用意して人数が同じだった色の分ansにかけていく  
+  ex)  
+  N = 3  
+  A = [0,1,0]  
+  [r,g,b]とする  
+  1 [0,0,0].count(0) rを被っていたとしてr+=1  
+  2 [1,0,0].count(1) rを被っている人が1人なのでr+=1  
+  3 [2,0,0].count(2) ans*=2する。そして今の人がgを被っていたとしてg+=1  
+  ans = 6
+
+  3. [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)  
+  dp[i][j]:= i+1個目までの鍵でj個目の宝箱を空ける時のコストの最小値  
+  とdpを考えたがこれはaがユニークな値でないとうまくいかない  
+  
+  今回の問題ではbitDPを使うらしい  
+  **bitDP は「ある集合の部分集合を添字とした DP」**  
+  つまり  
+  dp[i][S] := 最初の i 個の鍵からいくつか選んで、開いた宝箱の集合が S で表されるような場合についての、最小コスト
+
+
+
+  
