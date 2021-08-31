@@ -516,7 +516,7 @@ ___
 ___
 
 
-training28 ~ 
+training28 ~ 32
 
 time : 1hours  
 difficulty  
@@ -610,3 +610,29 @@ AtCoder Beginner Contest 216
 あと、解く問題数増やすより考察の時間も大事
 
 ___
+
+
+
+
+training32 ~ 
+
+time : 1hours  
+difficulty  
+1. 800~1200
+2. 800~1200
+3. 1200~1600
+
+Exclude experimental difficulty  
+
+
+___
+### 2021/08/30
+
+- training33(x :1,3 )
+  1. [B - -- - B](https://atcoder.jp/contests/arc112/tasks/arc112_b)  
+  ちょっと複雑な場合分け
+  2. [E - Coprime](https://atcoder.jp/contests/abc177/tasks/abc177_e)  
+  pairwise coprimeをO(N^2)からいかに計算量を減らすかの問題  
+  これは{A}に素因子に重複があるかを調べることでO(N)に落とし込める
+  3. []()  
+  時間なかった
