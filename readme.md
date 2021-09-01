@@ -686,3 +686,26 @@ ___
   O(N**5)
 
   
+
+- training36(x :)
+  1. [A - Darker and Darker ](https://atcoder.jp/contests/agc033/tasks/agc033_a)  
+  シンプルなbfs  
+  黒に変えたマスは高々1回の確認で良いのでO(HW)
+  2. [B - RGB Matching](https://atcoder.jp/contests/arc121/tasks/arc121_b)  
+  場合分けと二部探索  
+  g,b,rがすべて偶数の場合は0  
+  それ以外はrが偶数でg,bが奇数の場合などある  
+  この時組み合わせとしてrg,rbのパターンとgbのパターンがある  
+  これらは二部探索によりO(NlogN)で求められる
+  
+  3. [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)  
+  **一点更新、区間クエリはセグメントツリー的な解法**
+  ex)  
+  - 変更のクエリと出力のクエリが入り乱れている  
+  - 区間に関係するクエリとなっている  
+  など  
+  正直よくわかってないので後から見直しする
+
+
+
+
