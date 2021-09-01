@@ -722,7 +722,7 @@ ___
   2. [E - Sequence Sum](https://atcoder.jp/contests/abc179/tasks/abc179_e)  
   loopのスタートと終わりを求めて最初からloopの前とloopsum//((N-最初)//loop)と残りの和で求まる。  
   O(N)
-  3. [B - Reversi(https://atcoder.jp/contests/agc031/tasks/agc031_b)  
+  3. [B - Reversi](https://atcoder.jp/contests/agc031/tasks/agc031_b)  
   **区間を分割していくタイプの DP**  
   dp[i] :=  左端から i 番目までの石だけで考えた時の、色の塗られ方の場合の数  
   前回どこで区切ったのかの場合分け  
