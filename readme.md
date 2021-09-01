@@ -711,7 +711,7 @@ ___
 
 
 ___
-### 2021/09/02
+### 2021/09/01
 
 - training37(x :1,3 )
   1. [B - Electric Board ](https://atcoder.jp/contests/arc119/editorial/1841)  
