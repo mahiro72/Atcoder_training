@@ -687,7 +687,7 @@ ___
 
   
 
-- training36(x :)
+- training36(x :1,2,3)
   1. [A - Darker and Darker ](https://atcoder.jp/contests/agc033/tasks/agc033_a)  
   シンプルなbfs  
   黒に変えたマスは高々1回の確認で良いのでO(HW)
