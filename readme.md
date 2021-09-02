@@ -759,3 +759,23 @@ ___
 
 
 
+
+___
+### 2021/09/02
+
+- training39(x :1,2,3 )
+  1. [C - Align](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_c)  
+  BIT  
+  セグメントツリーでも行けるみたい  
+  O(N+QlogN)
+  2. [C - Align](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_c)  
+  奇数と偶数で場合分けして求める  
+  ポイントはAを前半と後半に分け和を２倍して引き算すること
+
+  3. [D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)  
+区間スケジューリング問題  
+ex)  
+M 個の区間が与えられ、どの2つの区間も  
+時間帯を共有しないように最大個数の区間を選べ  
+
+**隣り合う点しかないグラフは区間で考える**
