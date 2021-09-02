@@ -773,9 +773,18 @@ ___
   ポイントはAを前半と後半に分け和を２倍して引き算すること
 
   3. [D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)  
-区間スケジューリング問題  
-ex)  
-M 個の区間が与えられ、どの2つの区間も  
-時間帯を共有しないように最大個数の区間を選べ  
+  区間スケジューリング問題  
+  ex)  
+  M 個の区間が与えられ、どの2つの区間も  
+  時間帯を共有しないように最大個数の区間を選べ  
+  **隣り合う点しかないグラフは区間で考える**
 
-**隣り合う点しかないグラフは区間で考える**
+
+- training40(x :1,3 )
+  1. [A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)  
+  S = |ad-cb|/2  
+  ベクトルの成分表示で面積を求められる  
+  2. [D - Remainder Reminder](https://atcoder.jp/contests/arc091/tasks/arc091_b)  
+  bを固定して全探索すると余りには規則性がある
+  3. [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)  
+  BITを26個用意する
