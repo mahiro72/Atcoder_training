@@ -788,3 +788,26 @@ ___
   bを固定して全探索すると余りには規則性がある
   3. [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)  
   BITを26個用意する
+
+
+
+
+
+
+___
+### 2021/09/03
+
+- training41(x :1,3 )
+  1. [A - Getting Difference ](https://atcoder.jp/contests/agc018/tasks/agc018_a)  
+  Euclid の互除法をシミュレートする
+  2. [B - Colorful Creatures](https://atcoder.jp/contests/agc011/tasks/agc011_b)  
+  Aをソートして小さい生き物から次の生き物を吸収できるか確かめていき  
+  吸収できなかったらカウントをリセットする、という実装をした　O(N)  
+  ほかにも残れる生き物の中で最小の生き物を二部探索で求めると  
+  O(NlogN)で実装できる
+  3. [https://atcoder.jp/contests/abc122/tasks/abc122_d](D - We Like AGC)  
+  DPらしい。気づかなかった...  
+  部分文字列の場合DPの可能性を疑ったほうがいいかも  
+  **直近がわかっていれば、それより前の情報は要らない**
+
+  
