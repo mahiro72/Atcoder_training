@@ -334,7 +334,7 @@ ___
 - training19
   1. [C - XYZ Triplets](https://atcoder.jp/contests/aising2020/tasks/aising2020_c)  
   x,y,zを√nの範囲で全探索
-  2. [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b) 
+  2. [B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b)   
   範囲が狭いので1文字ずつ調べて数え上げる
   3. [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)  
   Bを基準にsortしてforで回す 
@@ -464,18 +464,17 @@ ___
 
 
 - training25
-  1. [B - ARC Wrecker](https://atcoder.jp/contests/arc117/editorial/1111)  
+  1. [B - ARC Wrecker](https://atcoder.jp/contests/arc117/tasks/arc117_b)  
   **数え上げ系の問題では、N が小さい場合を考えると考察が進むことがある**  
 
   2. [A - Multiple Array ](https://atcoder.jp/contests/agc009/tasks/agc009_a)  
   後ろから貪欲に計算していくという考察はあっていた  
   おそらくceilあたりで最小化に失敗してたのかな  
   とりあえず余りの時は何も考えずにa%bでいい  
-
   貪欲法の考察として  
-  **今の自分にとっても後にとっても良くなる**ことがあげられる
+  **今の自分にとっても後にとっても良くなる**ことがあげられる  
   3. [C - Boxes and Candies](https://atcoder.jp/contests/abc048/tasks/arc064_a)  
-  考察は完ぺきだった。x-a[i-1]が0を下回る場合を考えてなかった...
+  考察は完ぺきだった。x-a[i-1]が0を下回る場合を考えてなかった...  
   4. []()  
   時間なかったのでとばす
 
@@ -486,7 +485,7 @@ ___
   Counterで個数を数えてkを更新
   2. [A - Two Choices](https://atcoder.jp/contests/arc115/tasks/arc115_a)  
   前にやった、偶奇で分けて掛け算
-  3. [B - Products of Min-Max](https://atcoder.jp/contests/arc116/tasks/)  
+  3. [B - Products of Min-Max](https://atcoder.jp/contests/arc116/tasks/arc116_b)  
   愚直にやるとminとmaxを固定してforをまわO(N^2)  
   そこでminを固定し、sumを更新することでO(N)でできた  
   この手の問題を解けるようになりたい
@@ -562,7 +561,7 @@ ___
   1. [C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)  
   a[i]の値が何個あるのかを配列cntに記録し  
   cnt[i-1]+cnt[i]+cnt[i+1]の最大値を求める。  
-  最初と最後だけindexのエラ＝が出るので注意
+  最初と最後だけindexのエラーが出るので注意
   2. [D - Derangement](https://atcoder.jp/contests/abc072/tasks/arc082_b)  
   貪欲に前からswapした  
   ひとつ前でswapした場合現在はswapする必要がないのでその処理に注意する
@@ -590,7 +589,6 @@ ___
   aを決め打ちすることでxを求めtmp_a = x^bでtmp_aがあるかどうか調べた  
   O(N*M)かな？
   (うまくいかなかったが)  
-
   解法ではc = a^xとして　配列に追加していきsortしてBと同じになるか比べていた  
   これは O(N**2*logN)
   
@@ -604,7 +602,7 @@ ___
 ___
 AtCoder Beginner Contest 216
 
-簡単な問題は素早く溶けるようになってきた  
+簡単な問題は素早く解けるようになってきた  
 ただ、難しい問題の耐性がなさすぎる
 今後はdiff800-1600を中心に取り組みたい
 あと、解く問題数増やすより考察の時間も大事
