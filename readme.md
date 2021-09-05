@@ -659,7 +659,6 @@ ___
   3. [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)  
   dp[i][j]:= i+1個目までの鍵でj個目の宝箱を空ける時のコストの最小値  
   とdpを考えたがこれはaがユニークな値でないとうまくいかない  
-  
   今回の問題ではbitDPを使うらしい  
   **bitDP は「ある集合の部分集合を添字とした DP」**  
   つまり  
@@ -675,7 +674,7 @@ ___
   cost[i][j]: 頂点v_iから頂点v_jへ到達するための辺コストとし  
   cost[i][j] = min(cost[i][j],cost[i][k]+cost[k][j])で更新する
   計算量はO(edge**3)
-  2. [B - Box and Ball ](https://atcoder.jp/contests/agc002/tasks/agc002_b/editorial)  
+  2. [B - Box and Ball ](https://atcoder.jp/contests/agc002/tasks/agc002_b)  
   赤いボールが入っている可能性があるかを記録するboolの配列と  
   ボールの個数をcountする配列の二つを用意することで  
   O(M)で実装できた
@@ -697,7 +696,7 @@ ___
   これらは二部探索によりO(NlogN)で求められる
   
   3. [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)  
-  **一点更新、区間クエリはセグメントツリー的な解法**
+  **一点更新、区間クエリはセグメントツリー的な解法**  
   ex)  
   - 変更のクエリと出力のクエリが入り乱れている  
   - 区間に関係するクエリとなっている  
@@ -712,13 +711,13 @@ ___
 ### 2021/09/01
 
 - training37(x :1,3 )
-  1. [B - Electric Board ](https://atcoder.jp/contests/arc119/editorial/1841)  
+  1. [B - Electric Board ](https://atcoder.jp/contests/arc119/tasks/arc119_b)  
   典型テクニック  
   - **数が少ない方を考えると考察が進む場合がある (余事象など)**
   - **自明な下界を考える**  
   イメージはi個目の0がどこにあるか記録していくこと
   2. [E - Sequence Sum](https://atcoder.jp/contests/abc179/tasks/abc179_e)  
-  loopのスタートと終わりを求めて最初からloopの前とloopsum//((N-最初)//loop)と残りの和で求まる。  
+  loopのスタートと終わりを求めて最初からloopの前とloop_sum//((N-最初)//loop)と残りの和で求まる。  
   O(N)
   3. [B - Reversi](https://atcoder.jp/contests/agc031/tasks/agc031_b)  
   **区間を分割していくタイプの DP**  
@@ -792,6 +791,7 @@ ___
 
 
 
+
 ___
 ### 2021/09/03
 
@@ -808,4 +808,18 @@ ___
   部分文字列の場合DPの可能性を疑ったほうがいいかも  
   **直近がわかっていれば、それより前の情報は要らない**
 
-  
+
+___
+### 2021/09/04
+
+training1~41まで復習  
+
+
+
+AtCoder Beginner Contest 217  
+
+A,B,C,Eの4完  
+高難易度の問題に取り組んだのは正解だったと思う  
+残り２週間ほど、緑水色の問題を取り組んでいきたい  
+余裕あれば青も  
+
