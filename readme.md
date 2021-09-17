@@ -826,7 +826,24 @@ A,B,C,Eの4完
 
 
 ___
-### 2021/09/05 ~ 09/08  
+### 2021/09/05 ~ 09/16
 
 お休み
+インターンの準備など
 
+___
+### 2021/09/17 
+
+- training41(x :1,3 )
+  1. [B - Uniformly Distributed](https://atcoder.jp/contests/arc120/tasks/arc120_b)  
+  ちょっとDPっぽい  
+
+  2. [https://atcoder.jp/contests/agc023/tasks/agc023_a](https://atcoder.jp/contests/agc023/tasks/agc023_a)  
+  200 点問題史上最難問らしい  
+  ~~考察に納得いかなかったがACできてしまった~~  
+  普通にあってた、累積和の1つめの0がないとずれる  
+
+  3. [D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)  
+  (x+y)%3の0,1,2の3種類の色の組み合わせを全て全探索するのだが  
+  愚直に計算するとTLEなので事前計算をする配列を用意し  
+  計算量を減らす
